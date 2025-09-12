@@ -1,39 +1,32 @@
-<h1 align="center">👗👜 7ABiBi Fashion Store 🛒👟</h1>
-<h3 align="center">Modern E-commerce Website | HTML, CSS, JavaScript</h3>
+# 7ABiBi - E-Commerce Frontend Website
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300" alt="Fashion GIF"/>
-</p>
+## 📖 Description
+**7ABiBi** is a static **frontend e-commerce website** built using **HTML, CSS, Bootstrap, and JavaScript**.  
+This mini project simulates the structure of an online fashion store with product listings, categories, and a responsive design.
 
----
+## 📂 Project Content
+- **index.html** → Homepage with navigation bar, search, shopping cart, user dropdown, and carousel  
+- **Accessories.html** → Accessories product listing page  
+- **Accessories(men).html** → Accessories specifically for men  
+- **Accessories(women).html** → Accessories specifically for women  
+- **style.css** → Custom styles (layout, navbar, shop content, footer)  
+- **script.js** → JavaScript file (interactivity placeholders for cart, wishlist, etc.)  
+- **img/** → Folder with logos, products, and banners  
 
-## 📖 About the Project
-**7ABiBi** is a modern e-commerce website designed to showcase fashion products for **men, women, and accessories**.  
-It includes interactive shopping cart features, multiple product categories, and a clean responsive layout.  
+## 🎯 Features
+- Responsive **navigation bar** with dropdown menus and search bar  
+- **Carousel** with promotional banners  
+- **Product listings** with images, titles, and prices  
+- Shopping cart and wishlist icons (placeholders)  
+- **Footer section** with About, Categories, Quick Links, and Social Media icons  
 
-This project was created as part of my personal web development learning journey.
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- Font Awesome & Boxicons  
+- JavaScript (basic interactivity placeholder)  
 
----
-
-## ✨ Features
-- 🧥 Dedicated sections for **Men** and **Women** collections  
-- 🎒 **Accessories** pages with product listings  
-- 🛒 **Shopping cart** to add/remove products  
-- 📱 **Responsive design** for desktop and mobile  
-- 🎨 Styled with **CSS3** and made interactive with **JavaScript**  
-- ⚡ Organized and scalable folder structure  
-
----
-
-## 🛠️ Tech Stack
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Font%20Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white"/>
-</p>
-
----
-
-## 📂 Project Structure
+## ✅ Conclusion
+This project is a **practice exercise for building an e-commerce front-end**.  
+It includes navigation, product display, responsive design, and a structured layout — forming the foundation for future enhancements such as dynamic cart and checkout systems.
