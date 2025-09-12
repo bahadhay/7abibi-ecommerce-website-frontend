@@ -18,7 +18,7 @@ This mini project simulates the structure of an online fashion store with produc
 - **Carousel** with promotional banners  
 - **Product listings** with images, titles, and prices  
 - Shopping cart and wishlist icons (placeholders)  
-- **Footer section** with About, Categories, Quick Links, and Social Media icons  
+- **Footer section** with About, Categories, Quick Links, and Social Media icons
 
 ## 🛠️ Technologies Used
 - HTML5  
