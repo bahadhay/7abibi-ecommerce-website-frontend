@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEN</title>
+    <link rel="icon" href="img/7abibi logo.png" type="image/x-icon" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <header class="header">
+    <div class="main-navbar shadow-sm sticky-top">
+        <div class="top-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                        <h5 class="brand-name"><a href="index.html"><img src="img/7abibi logo.png" class="logo"></a></h5>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <form role="search">
+                            <div class="input-group">
+                                <input type="search" placeholder="Search your product" class="form-control" />
+                                <button class="btn bg-white" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <ul class="nav justify-content-end">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa fa-shopping-cart"></i> Cart (0)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa fa-heart"></i> Wishlist (0)
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-user"></i> Username 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a></li>
+
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-list"></i> My Orders</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> My Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     </div>
+    </header>
+
+
+    <menu class="menu">
+     <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a class='dropdown-arrow' href='women.html'>Woman</a>
+            <ul class='sub-menus'>
+              <li><a href='women(new).html'>NEW</a></li>
+              <li><a href='women(clothes).html'>CLOTHES</a></li>
+              <li><a href='women(shoes).html'>SHOES</a></li>
+            </ul>
+          </li>       
+          <li><a class='dropdown-arrow' href='men.html'>MEN</a>
+            <ul class='sub-menus'>
+              <li><a href='men(new).html'>NEW</a></li>
+              <li><a href='men(clothes).html'>CLOTHES</a></li>
+              <li><a href='men(shoes).html'>SHOES</a></li>
+            </ul>
+          </li>
+          <li><a class='dropdown-arrow' href='accessories.html'>ACCESSORIES</a>
+            <ul class='sub-menus'>
+              <li><a href='accessories(women).html'>FOR WOMEN</a></li>
+              <li><a href='accessories(men).html'>FOR MEN</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </menu>
+
+
+    <!--shop content-->
+
+    <section class="shop container">
+        <h2 id="page-title">MEN</h2>
+     <div class="shop-content">
+
+        <!--box1-->
+        <div class="product-box">
+            <video autoplay loop muted src="vid/6382207812_4_3_1.mp4"  class="product-img"></video>
+            <h2 class="product-title">Faded-effect long sleeve check shirt</h2>
+            <span class="price">159 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 2-->
+         <div class="product-box">
+            <img src="img/5a3b8148fc650e82f03774d6c19d9e18-7348623802_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Faded-effect boxy-fit sweater</h2>
+            <span class="price">139 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 3-->
+         <div class="product-box">
+            <img src="img/5189cf832401c337ab4eee17bde2c2f1-6852310812_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Comfort coat</h2>
+            <span class="price">269 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box4-->
+         <div class="product-box">
+            <img src="img/f5bd3b21da685e5d8d06e3434b721d5d-7335623513_2_7_0.jpg" alt="" class="product-img " id="bahaa">
+            <h2 class="product-title"><p style="color: red ; font-size: small;">Out of stock</p>Textured crew neck wool blend sweater</h2>
+            <span class="price">139 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box5-->
+         <div class="product-box">
+            <img src="img/7b184da4984013343b70f7b00bf0eef9-7390127800_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box6-->
+         <div class="product-box">
+            <img src="img/dd1c64b10af9fb712ab4b5b56131bd5b-7390127818_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box7-->
+         <div class="product-box">
+            <img src="img/1220b690bed20979cd91dff7c576dd1e-7390127737_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box8-->
+         <div class="product-box">
+            <img src="img/1e4d1d9880d87237700f1455b9368d54-7390127251_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box9-->
+        <div class="product-box">
+            <img src="img/340b21c051aa6882e44538df31968f20-1535737818_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Zip-up hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box1-->
+        <div class="product-box">
+            <img src="img/f6a22e6bd98c1f621fe831a92bfea61c-7981455800_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Rock The Bells print boxy fit short sleeve T-shirt</h2>
+            <span class="price">62.50 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 2-->
+         <div class="product-box">
+            <img src="img/2e654c9ad8c5081f41f3c326e46e78ee-5405335811_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Baggy jeans</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 3-->
+         <div class="product-box">
+            <img src="img/43f8a72ecee2e6be2c0f7cd6ab87cb3f-7404732800_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Printed hoodie</h2>
+            <span class="price">89 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box4-->
+         <div class="product-box">
+            <img src="img/77ac177b66628eaa6a93be7bf4ccfa34-5479228802_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Technical jogging trousers</h2>
+            <span class="price">103 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box5-->
+         <div class="product-box">
+            <img src="img/086fd6e4ca40583db52ce1563f2389c8-2640388800_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Bermuda jogging shorts</h2>
+            <span class="price">79 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box6-->
+         <div class="product-box">
+            <img src="img/f038c7b72132cc368d44ae988656bf06-7402732800_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Slim fit ripped denim Bermuda shorts</h2>
+            <span class="price">89.90 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box7-->
+         <div class="product-box">
+            <img src="img/58fc2c314d6e179dbf438c261effb98c-6668644800_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Leather-effect bomber jacket</h2>
+            <span class="price">149 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box8-->
+         <div class="product-box">
+            <img src="img/9dd2bc1aa3fda0e199167138a743362c-6680551542_1_1_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Puffer jacket</h2>
+            <span class="price">269 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box1-->
+        <div class="product-box">
+            <img src="img/a16b36c65b20b77c38fc26af97e7c5da-2418260040_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Contrast chunky sole trainers</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 2-->
+         <div class="product-box">
+            <img src="img/a4fa4bf0f453278de8195b7086d3f5dd-2418260001_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Contrast chunky sole trainers</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 3-->
+         <div class="product-box">
+            <img src="img/6804f8e421a1361dcadf6c6f68c15c99-2400360202_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s skater trainers</h2>
+            <span class="price">139 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box4-->
+         <div class="product-box">
+            <img src="img/9fe03afc654b7434f3a15d3a1b367167-2202360117_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s rubberised basketball-style high-top trainers</h2>
+            <span class="price">199 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box5-->
+         <div class="product-box">
+            <img src="img/ef1cd292944d08d0da5bb7f647d53866-2442260202_2_13_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s trainers with keyring</h2>
+            <span class="price">179 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box6-->
+         <div class="product-box">
+            <img src="img/2442260001_2_13_4.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s trainers with keyring</h2>
+            <span class="price">179 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box7-->
+         <div class="product-box">
+            <img src="img/f4ce887ffb60d9c48661b4593d10bc6a-2420260001_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s rubberised basketball-style high-top </h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box8-->
+         <div class="product-box">
+            <img src="img/5a657812ab31597881a1ddd215e5d15d-2420260040_2_4_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s rubberised basketball-style high-top </h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box9-->
+        <div class="product-box">
+            <img src="img/94f714a32f62f14857bc2e74a3287d4a-2210260040_2_14_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s high-top trainers with removable harness</h2>
+            <span class="price">229 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box10-->
+        <div class="product-box">
+            <img src="img/bdbe21945ca779398eb8de6f22d416ba-2206260040_2_14_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s high-top trainers with thick soles</h2>
+            <span class="price">199 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box11-->
+        <div class="product-box">
+            <img src="img/81f703a07917ff23246243e35d742942-2468260001_2_14_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s trainers with removable harness</h2>
+            <span class="price">179 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box12-->
+        <div class="product-box">
+            <img src="img/b7d6d4917205ae252a0664445dd9119a-2462260001_2_14_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Men’s multi-piece trainers</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+
+
+
+    </section>
+
+
+
+    </div>
+  
+
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Welcome to 7abibi, where style meets expression in the world of fashion! At 7abibi, we're more than just an e-store – we're a destination for curated clothing that speaks to your individuality. Our collection of clothes is a celebration of diversity, offering a fusion of contemporary trends and timeless elegance.
+                At 7abibi, we prioritize quality and style, providing you with the latest in fashion without compromising on substance. Our e-store is your go-to destination for a seamless and enjoyable shopping experience. Welcome to a world of fashion that's uniquely yours!
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+           <a href="#">BAHAcode</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEN(NEW)</title>
+    <link rel="icon" href="img/7abibi logo.png" type="image/x-icon" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+</head>
+<body>
+
+    <header class="header">
+    <div class="main-navbar shadow-sm sticky-top">
+        <div class="top-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                        <h5 class="brand-name"><a href="index.html"><img src="img/7abibi logo.png" class="logo"></a></h5>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <form role="search">
+                            <div class="input-group">
+                                <input type="search" placeholder="Search your product" class="form-control" />
+                                <button class="btn bg-white" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <ul class="nav justify-content-end">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa fa-shopping-cart"></i> Cart (0)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa fa-heart"></i> Wishlist (0)
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-user"></i> Username 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a></li>
+
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-list"></i> My Orders</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> My Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     </div>
+    </header>
+
+
+    <menu class="menu">
+     <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a class='dropdown-arrow' href='women.html'>Woman</a>
+            <ul class='sub-menus'>
+              <li><a href='women(new).html'>NEW</a></li>
+              <li><a href='women(clothes).html'>CLOTHES</a></li>
+              <li><a href='women(shoes).html'>SHOES</a></li>
+            </ul>
+          </li>       
+          <li><a class='dropdown-arrow' href='men.html'>MEN</a>
+            <ul class='sub-menus'>
+              <li><a href='men(new).html'>NEW</a></li>
+              <li><a href='men(clothes).html'>CLOTHES</a></li>
+              <li><a href='men(shoes).html'>SHOES</a></li>
+            </ul>
+          </li>
+          <li><a class='dropdown-arrow' href='accessories.html'>ACCESSORIES</a>
+            <ul class='sub-menus'>
+              <li><a href='accessories(women).html'>FOR WOMEN</a></li>
+              <li><a href='accessories(men).html'>FOR MEN</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </menu>
+
+
+    <!--shop content-->
+
+    <section class="shop container">
+        <h2 id="page-title">NEW</h2>
+     <div class="shop-content">
+
+        <!--box1-->
+        <div class="product-box">
+            <video autoplay loop muted src="vid/6382207812_4_3_1.mp4"  class="product-img"></video>
+            <h2 class="product-title">Faded-effect long sleeve check shirt</h2>
+            <span class="price">159 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 2-->
+         <div class="product-box">
+            <img src="img/5a3b8148fc650e82f03774d6c19d9e18-7348623802_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Faded-effect boxy-fit sweater</h2>
+            <span class="price">139 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box 3-->
+         <div class="product-box">
+            <img src="img/5189cf832401c337ab4eee17bde2c2f1-6852310812_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Comfort coat</h2>
+            <span class="price">269 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box4-->
+         <div class="product-box">
+            <img src="img/f5bd3b21da685e5d8d06e3434b721d5d-7335623513_2_7_0.jpg" alt="" class="product-img " id="outstock">
+            <h2 class="product-title"><p style="color: red ; font-size: small;" >Out of stock</p>Textured crew neck wool blend sweater</h2>
+            <span class="price">139 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box5-->
+         <div class="product-box">
+            <img src="img/7b184da4984013343b70f7b00bf0eef9-7390127800_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box6-->
+         <div class="product-box">
+            <img src="img/dd1c64b10af9fb712ab4b5b56131bd5b-7390127818_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box7-->
+         <div class="product-box">
+            <img src="img/1220b690bed20979cd91dff7c576dd1e-7390127737_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+         <!--box8-->
+         <div class="product-box">
+            <img src="img/1e4d1d9880d87237700f1455b9368d54-7390127251_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Boxy fit hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        <!--box9-->
+        <div class="product-box">
+            <img src="img/340b21c051aa6882e44538df31968f20-1535737818_2_7_0.jpg" alt="" class="product-img">
+            <h2 class="product-title">Zip-up hoodie</h2>
+            <span class="price">129 TND</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+            
+        </div>
+
+        
+
+
+    </section>
+
+
+
+    </div>
+  
+
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Welcome to 7abibi, where style meets expression in the world of fashion! At 7abibi, we're more than just an e-store – we're a destination for curated clothing that speaks to your individuality. Our collection of clothes is a celebration of diversity, offering a fusion of contemporary trends and timeless elegance.
+                At 7abibi, we prioritize quality and style, providing you with the latest in fashion without compromising on substance. Our e-store is your go-to destination for a seamless and enjoyable shopping experience. Welcome to a world of fashion that's uniquely yours!
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+           <a href="#">BAHAcode</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
